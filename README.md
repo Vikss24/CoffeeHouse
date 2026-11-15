@@ -1,2 +1,12 @@
-# CoffeeHouse
-Automation system for a coffee shop. The project includes database management, employees, menu, ingredients, purchases and orders.
+# Кав'ярня — Система автоматизації
+
+Система управління для кав'ярні. Проєкт включає управління базою даних, співробітниками, меню, інгредієнтами, покупками та замовленнями[cite: 1].
+
+## Структура проєкту
+* `database.py` — створення бази даних SQLite та наповнення початковими даними.
+* `coffee_shop.py` — головний графічний інтерфейс програми (на базі CustomTkinter).
+
+## Дані для входу в систему
+* **Адміністратор:** `admin` / `admin123`
+* **Бариста:** `barista` / `1234`
+* **Клієнт:** `client` / `1234`
